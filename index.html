@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicia sesión</title>
+	<link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1 class="titleLabel">Dark Web ID:</h1>
+		<form class="login_form" action="deepweb.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email or ID Number</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Please enter a valid email or Token ID</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please enter a valid password</div>
+			<button type="submit">Log in</button>
+		</form>
+	</div>
+	<script src="validate.js"></script>	
+</body>
+</html>

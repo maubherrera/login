@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: url(//img.freepik.com/free-vector/cyber-hacker-attack-background-skull-vector_42077-10484.jpg?w=1380);
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+
+	margin-top: 0;
+	width: 450px;
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.911);
+	border-radius: 15px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.titleLabel{
+	padding: 40px 10px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #130f40;
+	text-align: center;
+}
+
+.login_form{
+	padding: 20px 40px;
+}
+
+.login_form .font{
+	font-size: 18px;
+	color: #130f40;
+	margin: 5px 0;
+}
+
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+
+.login_form #email_error, .login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+
+.login_form .font2{
+	margin-top: 30px;
+}
+
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #00b09b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 15px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+
+.login_form button:hover{
+	background: #151c6a;
+	background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+
+
